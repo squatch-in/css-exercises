@@ -1,4 +1,7 @@
 .header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: monospace;
   background: papayawhip;
 }
@@ -9,11 +12,16 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 5px;
 }
 
-ul {
+ul { 
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 3px;
+  padding: 0px;
+  display: flex;
+  column-gap: 1em;
 }
 
 a {
@@ -23,3 +31,23 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+
+
+
+
+
+/* This doesnt work for reasions i dont understand */
+/*.left-links {
+display: flex;
+justify-content: center;
+}
+
+.right-links {
+display: flex;
+}*/
+
+/* ^^^^^^^^^^^^ */
+/* I believe this doesnt work now because adding the unorderd list applys for both the right and left side  */
+/* I just needed to change the margin and padding because they have set values as without any change. */
