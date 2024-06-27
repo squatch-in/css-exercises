@@ -10,7 +10,48 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 32px;
 }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 52px;
+  
+}
+
+.one {
+ flex: 1 1 auto;
+ max-width: 200px;
+ text-align: center;
+}
+
+.two {
+  flex: 1 1 auto;
+  max-width: 200px;
+  text-align: center;
+}
+
+.three {
+  flex: 1 1 auto;
+  max-width: 200px;
+  text-align: center;
+}
+
+.four {
+  flex: 1 1 auto;
+  max-width: 200px;
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
